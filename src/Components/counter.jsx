@@ -5,11 +5,11 @@ const Counter =() =>{
       setCount(count+1);      
     }
     const decre =()=>{
-      setCount(count-1); 
-      if(count<=0) {
-        alert("Counter can't be negative..")
-        setCount(0);
-      }    
+      if(count === 0) {
+        alert("Count is already zero can't be decreased further..")
+        return;
+      } 
+        setCount(count-1);
     }
     const reset =()=>{
       setCount(0);      
