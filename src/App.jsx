@@ -7,7 +7,7 @@ import Counter from './Components/Counter'
 function App() {
 
   return (
-    <div className="profile">
+    <div>
       <Counter/>
     </div>
   )
